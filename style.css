@@ -854,7 +854,7 @@ nav#navbar {
 }
 #projects .tabs .tab.active, 
 #projects .tabs .tab:hover {
-    color: #000;
+    color: #E4002B;
 }
 
 #projects .slick-arrow {
@@ -915,7 +915,7 @@ nav#navbar {
   #projects .tabs .tab {
       font-size: 15px;
       color: #fff;
-      background: #E4002B;
+      background: #012169;
       padding: 10px;
       margin-right: 10px;
       border-radius: 10px;
@@ -1157,6 +1157,16 @@ nav#navbar {
 #footer .footer-item h2 {
     font-size: 3.4em;
 }
+
+.icon-instagram {
+    color: #012169; /* Warna default (Instagram pink) */
+    transition: color 0.3s ease; /* Smooth transition saat hover */
+  }
+  
+  .icon-instagram:hover {
+    color: #E4002B; /* Warna saat di-hover */
+  }
+  
 
 #footer-bottom {
     border-top: 1px solid #E7EBF1;
